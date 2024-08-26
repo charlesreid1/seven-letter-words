@@ -49,13 +49,15 @@ if __name__=="__main__":
     print("The number of near-palindromes is {0:d}".format(len(near_palindromes)))
 
     # Off by 2
-    ob2_palindromes = []
+    ob1or2_palindromes = []
     hi = 2.0
 
     for i in range(len(words)):
         if(is_near_palindrome(words[i],lo,hi)):
             knp += 1
-            ob2_palindromes.append(words[i])
+            ob1or2_palindromes.append(words[i])
+
+    ob2_palindromes = list(set(ob1or2_palindromes)-set(near_palindromes))
 
     print("\n\n")
     print("-"*40)
