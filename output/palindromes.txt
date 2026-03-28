@@ -1,0 +1,11 @@
+Processing 7-letter words...
+----------------------------------------
+Palindromes: 
+
+rotator
+There are 1 palindromes.
+----------------------------------------
+Palindrome Pairs: 
+
+deliver, reviled
+There are 1 palindrome pairs.

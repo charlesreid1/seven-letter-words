@@ -1,0 +1,5 @@
+----------------------------------------
+Near Palindromes: 
+
+amylase, animals, animate, anomaly, audubon, bazaars, beneath, biliary, capable, capably, celebes, choices, council, defects, depeche, derecho, detects, dresden, egghead, element, emblems, eminent, enamels, erasers, flyleaf, galahad, implied, implies, invoice, jamaica, laramie, leaflet, memento, monolog, moronic, ominous, pinions, plumper, prosper, safaris, saharan, samaras, samaria, samarra, several, severed, sonoran, stutter, suburbs, sutures, tabasco, tedesco, telesis, tighten, tighter, tightly, trestle, tristan, trusted, trustee, unbound, uncouth, unmount, unsound, unwound
+The number of near-palindromes is 65
