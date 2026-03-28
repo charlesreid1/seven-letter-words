@@ -1,0 +1,21 @@
+----------------------------------------
+Number of words with 1 letters: 0
+
+----------------------------------------
+Number of words with 2 letters: 0
+
+----------------------------------------
+Number of words with 3 letters: 10
+alfalfa, barbara, carrara, entente, gigging, ginning, lessees, referee, settees, sissies
+----------------------------------------
+Number of words with 4 letters: 249
+abitibi, acacias, acceded, acetate, addenda, agraria, alabama, alannah, alleles, amalgam
+----------------------------------------
+Number of words with 5 letters: 1829
+abandon, abetted, abigail, abogado, abraded, abraham, abraxas, abscess, absorbs, abyssal
+----------------------------------------
+Number of words with 6 letters: 4618
+abalone, abating, abelian, abiding, abilene, ability, abiotic, abreast, absalom, absence
+----------------------------------------
+Number of words with 7 letters: 3294
+abdomen, abolish, aborted, abortus, abounds, abridge, absinth, absolve, abusing, abusive

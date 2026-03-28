@@ -15,7 +15,7 @@ def gen_variations(word,fragment,distance,depth,variations):
     Recursive backtracking method to assemble strings
     differing by +/-distance at each position
     """
-    if depth==5:
+    if depth==len(word):
         variations.add(fragment)
     else:
         for d in range(1,distance+1):
@@ -52,7 +52,8 @@ def main():
     #words = words[:1000]
     words = set(get_words())
 
-    for d in [1,2,3]:
+    #for d in [1,2,3]:
+    for d in [1,2]:
 
         tic = timeit.default_timer()
 
@@ -81,7 +82,7 @@ def main():
 
         toc = timeit.default_timer()
 
-        for o in off_by_n[:10]:
+        for o in off_by_n:
             print("{:s} {:s}".format(o[0],o[1]))
 
         print("Found {0:d} pairs of words that differ by +/-{1:d} in each component.".format(len(off_by_n),d))

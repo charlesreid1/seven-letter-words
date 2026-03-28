@@ -33,19 +33,14 @@ def print_tuple(e):
 if __name__=="__main__":
 
     words = get_words()
-    nw = len(set(words))
 
     eds = []
     for i in range(100):
-        w1 = words[random.randint(1,nw)]
-        w2 = words[random.randint(1,nw)]
+        w1, w2 = random.sample(words, 2)
         ed = euclidean_distance(w1,w2)
         eds.append((w1,w2,ed))
 
     sorted_eds = sorted(eds, key=operator.itemgetter(2))
-
-    print("\n\nEuclidean distance between 100 random pairs of words:")
-    print("-"*40)
 
     for e in reversed(sorted_eds):
         print_tuple(e)

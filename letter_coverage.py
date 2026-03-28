@@ -1,20 +1,12 @@
 """
 letter_coverage.py
 
-Compute the minimum number of words from seven-letter-words
+Compute the minimum number of words from five-letter-words
 needed to cover N letters from the alphabet.
 
 This can be done in O(N^2) time with a dynamic program.
 For each word that we choose, we have to look at all other words
 to see how many letters those two cover, combined. 
-
-
-TODO: This currently takes a long time on the full wordlist,
-so a kludge that's hard-coded is to only use the first 1,000
-words. This method should be improved to use the full wordlist,
-(possibly printing progress), and keep running track of the 
-minimum words required for full letter coverage.
-
 
 https://charlesreid1.com/wiki/Five_Letter_Words
 https://charlesreid1.com/wiki/Letter_Coverage
@@ -26,7 +18,7 @@ from pprint import pprint
 
 def word2bitvector(word,N):
     """
-    Turns a seven-letter word into a bit vector representing character coverage.
+    Turns a five-letter word into a bit vector representing character coverage.
     Uses 26 letters by default.
     """
     bit_vector = [False,]*N
@@ -82,10 +74,7 @@ if __name__=="__main__":
     N = 15 
 
     words = get_words()
-
-    start_ix = 1900
-    window = 1000
-    words = words[start_ix:start_ix+window]
+    words = words[:1000]
 
 
     # Initialization:
@@ -205,13 +194,12 @@ if __name__=="__main__":
     ones_bv_indices = [k for k,v in enumerate(ones_bv) if v==max(ones_bv)]
 
     min_key = ones_bv_indices[0]
-    min_val = ones_bv[ones_bv_indices[0]]
-    for ix in reversed(ones_bv_indices[1:]):
-        if(ones_bv[ix] < min_key):
+    for ix in ones_bv_indices[1:]:
+        if ws[ix] < ws[min_key]:
             min_key = ix
-            min_val = ones_bv[ix]
 
-    solution = list(btsolution(min_key, min_val, words, bt))
-    print("Takes "+str(len(solution))+" words to cover "+str(N)+" letters")
+    solution = list(btsolution(min_key, ws[min_key], words, bt))
+    covered_letters = ", ".join(chr(ord('a') + i) for i in range(N) if bestcoverage_bv[min_key][i])
+    print("Takes "+str(len(solution))+" words to cover "+str(N)+" letters ("+covered_letters+")")
     pprint(solution)
 

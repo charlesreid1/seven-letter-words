@@ -1,0 +1,15 @@
+----------------------------------------
+ALL lexicographically reversed words:
+sniffed
+spoofed
+spooked
+spooled
+trolled
+wronged
+6 total.
+----------------------------------------
+First reverse lexicographically sorted word:
+sniffed
+----------------------------------------
+Last reverse lexicographically sorted word:
+wronged

@@ -1,0 +1,2 @@
+Takes 7 words to cover 15 letters (a, b, c, d, e, f, g, h, i, j, k, l, m, n, o)
+['abalone', 'abandon', 'abating', 'abdomen', 'achieve', 'adjusts', 'backoff']
