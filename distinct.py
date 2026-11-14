@@ -4,7 +4,7 @@ distinct.py
 Donald Knuth, Art of Computer Programming, Volume 4 Facsimile 0
 Exercise #27
 
-How many SGB words contain exactly k distinct letters, for 1 <= k <= 5?
+How many seven-letter words contain exactly k distinct letters, for 1 <= k <= 7?
 """
 from get_words import get_words
 

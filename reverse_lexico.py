@@ -4,7 +4,7 @@ reverse_lexico.py
 Donald Knuth, Art of Computer Programming, Volume 4 Facsimile 0
 Variation on Exercise #30
 
-Each letter of the word "spied" appears in reversed lexicographic order.
+Each letter of the word "wronged" appears in reversed lexicographic order.
 Find more words whose letters appear in reverse lexicographic order.
 """
 from get_words import get_words
