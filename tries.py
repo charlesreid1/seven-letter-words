@@ -86,7 +86,9 @@ class TryTrieTree(object):
                 parent.children.append(new_child)
 
             if candidate_depth == self.target_depth:
-                new_child.count = max_number_branches
+                # Branches below a leaf are distinct next letters, not words:
+                # words sharing this prefix can also share the next letter.
+                new_child.count = len({w[candidate_depth] for w in words_with_candidate})
                 return
 
             for new_candidate in ALPHABET:
