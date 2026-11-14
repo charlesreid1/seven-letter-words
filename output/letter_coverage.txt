@@ -1,32 +1,37 @@
-Takes 4 words to cover 15 letters (a, b, c, d, e, f, g, h, i, j, k, l, m, n, o) from WORDS(1000)
-['adjoins', 'affable', 'awaking', 'alchemy']
+Word list shuffled with seed 0; WORDS(1000) is the first 1000 shuffled words
+
+Takes 3 words to cover 15 letters (a, b, c, d, e, f, g, h, i, j, k, l, m, n, o) from WORDS(1000)
+['punjabi', 'mocking', 'flashed']
+47 sets of 3 words cover these letters
 
 Takes 6 words to cover 26 letters (a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z) from WORDS(1000)
-['adjoins', 'aquifer', 'betwixt', 'amazing', 'anchovy', 'belknap']
+['quoting', 'scherzo', 'javelin', 'carboxy', 'franked', 'empower']
+163792 sets of 6 words cover these letters
 
 Takes 5 words to cover 26 letters (a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z) from WORDS(10000)
-['acquire', 'bluejay', 'mitzvah', 'foxwood', 'pigskin']
+['quoting', 'javelin', 'schwarz', 'fixedly', 'bumpkin']
+232377 sets of 5 words cover these letters
 
-  N  words  cover
-  5      1  batched
-  6      2  abiotic affixed
-  7      2  affects abiding
-  8      2  affects baghdad
-  9      2  affiche abiding
- 10      3  adjoins affable arching
- 11      3  adjoins affiche backing
- 12      3  adjoins affiche backlog
- 13      4  adjoins affable awaking alchemy
- 14      4  adjoins affable awaking alchemy
- 15      4  adjoins affable awaking alchemy
- 16      4  adjoins affable backing amphora
- 17      4  adjoins aquifer backlog amphora
- 18      4  adjoins aquifer backlog amphora
- 19      4  adjoins aquifer backlog amphora
- 20      5  adjoins acquire affects backlog amphora
- 21      5  adjoins acquire affects backlog amphora
- 22      5  adjoins acquire afghani baklava amputee
- 23      5  adjoins banquet amplify awaking archive
- 24      6  adjoins acquire anthrax amplify agarwal baklava
- 25      6  adjoins acquire anthrax amplify agarwal baklava
- 26      6  adjoins aquifer betwixt amazing anchovy belknap
+  N  words  covers  one cover
+  5      2    9989  armband refocus
+  6      2     837  refocus armband
+  7      2      83  macduff bridged
+  8      2      15  macduff herbage
+  9      2       9  flanged chablis
+ 10      3    3301  javelin macduff brought
+ 11      3    1048  javelin backhoe flanged
+ 12      3     560  javelin backhoe flanged
+ 13      3      77  punjabi mocking flashed
+ 14      3      76  punjabi mocking flashed
+ 15      3      47  punjabi mocking flashed
+ 16      3      20  punjabi mocking flashed
+ 17      4    1518  quoting punjabi mocking flashed
+ 18      4     983  quoting punjabi chuckle defamer
+ 19      4     690  quoting punjabi shackle defamer
+ 20      4     270  quoting punjabi shackle defamer
+ 21      4     270  quoting punjabi shackle defamer
+ 22      5  352818  quoting javelin mocking friable shopped
+ 23      5   21141  quoting javelin picking sawfish armband
+ 24      5    1097  quoting javelin postbox hacksaw defamer
+ 25      5     102  quoting jodhpur carboxy flavors wakeman
+ 26      6  163792  quoting scherzo javelin carboxy franked empower
