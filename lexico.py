@@ -4,8 +4,8 @@ lexico.py
 Donald Knuth, Art of Computer Programming, Volume 4 Facsimile 0
 Exercise #30
 
-Each letter of the word "first" appears in correct lexicographic order.
-Find the first and last such words in the SGB words.
+Each letter of the word "billowy" appears in correct lexicographic order.
+Find the first and last such words in the seven-letter words.
 """
 from get_words import get_words
 

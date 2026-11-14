@@ -1,7 +1,7 @@
 """
 stats.py 
 
-Compute statistics of the 5-letter word collection from the Stanford GraphBase.
+Compute statistics of the seven-letter word collection.
 """
 from collections import Counter
 from pprint import pprint

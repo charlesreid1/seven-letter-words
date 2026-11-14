@@ -1,8 +1,8 @@
 """
 get_words.py
 
-Utility method to load the SBG words
-and retun them as a list of strings.
+Utility method to load the seven-letter words
+and return them as a list of strings.
 """
 
 def get_words():

@@ -4,7 +4,7 @@ diff_by_n.py
 Donald Knuth, Art of Computer Programming, Volume 4 Facsimile 0
 Variation on Exercise #28
 
-Find pairs of SGB word vectors that differ by +/-n.
+Find pairs of seven-letter word vectors that differ by +/-n.
 """
 from get_words import get_words
 import timeit
@@ -41,7 +41,7 @@ def get_all_variations(word, distance):
 
 def main():
     """
-    Find pairs of SGB word vectors that differ by 
+    Find pairs of seven-letter word vectors that differ by 
     +/-distance in each component.
     
     To do this, iterate through each word,
