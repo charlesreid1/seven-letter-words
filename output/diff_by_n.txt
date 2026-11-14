@@ -1,6 +1,6 @@
 astride brushed
 Found 1 pairs of words that differ by +/-1 in each component.
-Time: 0.4279
+Time: 0.6086
 ammeter conduct
 amongst boppers
 amongst commits
@@ -31,4 +31,4 @@ trinket upholds
 trusted upsurge
 upsurge worsted
 Found 29 pairs of words that differ by +/-2 in each component.
-Time: 45.0259
+Time: 61.4865

@@ -1,2 +1,32 @@
-Takes 7 words to cover 15 letters (a, b, c, d, e, f, g, h, i, j, k, l, m, n, o)
-['abalone', 'abandon', 'abating', 'abdomen', 'achieve', 'adjusts', 'backoff']
+Takes 4 words to cover 15 letters (a, b, c, d, e, f, g, h, i, j, k, l, m, n, o) from WORDS(1000)
+['adjoins', 'affable', 'awaking', 'alchemy']
+
+Takes 6 words to cover 26 letters (a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z) from WORDS(1000)
+['adjoins', 'aquifer', 'betwixt', 'amazing', 'anchovy', 'belknap']
+
+Takes 5 words to cover 26 letters (a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z) from WORDS(10000)
+['acquire', 'bluejay', 'mitzvah', 'foxwood', 'pigskin']
+
+  N  words  cover
+  5      1  batched
+  6      2  abiotic affixed
+  7      2  affects abiding
+  8      2  affects baghdad
+  9      2  affiche abiding
+ 10      3  adjoins affable arching
+ 11      3  adjoins affiche backing
+ 12      3  adjoins affiche backlog
+ 13      4  adjoins affable awaking alchemy
+ 14      4  adjoins affable awaking alchemy
+ 15      4  adjoins affable awaking alchemy
+ 16      4  adjoins affable backing amphora
+ 17      4  adjoins aquifer backlog amphora
+ 18      4  adjoins aquifer backlog amphora
+ 19      4  adjoins aquifer backlog amphora
+ 20      5  adjoins acquire affects backlog amphora
+ 21      5  adjoins acquire affects backlog amphora
+ 22      5  adjoins acquire afghani baklava amputee
+ 23      5  adjoins banquet amplify awaking archive
+ 24      6  adjoins acquire anthrax amplify agarwal baklava
+ 25      6  adjoins acquire anthrax amplify agarwal baklava
+ 26      6  adjoins aquifer betwixt amazing anchovy belknap
